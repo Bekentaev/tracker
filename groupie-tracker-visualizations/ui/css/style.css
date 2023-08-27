@@ -1,0 +1,88 @@
+html{
+    background-image: url("https://images.hdqwalls.com/wallpapers/lo-fi-cafe-4k-z8.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.text{
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 100;
+        color: #ffffff;
+        margin: 0; 
+        -webkit-text-stroke-color: black;
+        text-shadow: 3px 0 3px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+         0 -1px 1px #000;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.mainContainer{
+    display: inline-block;
+   
+
+}
+.infoContainer{
+    vertical-align: middle;
+    
+    /* border:solid #C0DEFF ; */
+    text-align: center;
+    /* padding: 10px 20px; */
+   
+}
+
+body {
+    /* background-image: url("https://www.mkgifs.com/wp-content/uploads/2022/09/Wallpaper-GIFs-Anime-1.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #C0DEFF;  */
+    text-align: center;
+    background-size: 100%;
+}
+
+.imgE{
+    border-radius: 100px;
+    /* border:outset #009EFF; */
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgA{
+    border-radius: 70px;
+    border:outset #009EFF;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.members{
+    font-size: 14px;
+}
+.title{
+    border-radius: 80px;
+    font-family: sans-serif;
+    font-weight: 70;
+    background-color: #ffffff;
+}
+  
+.artistsName{
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        -webkit-text-stroke-color: black;
+        text-shadow: 3px 0 3px #000, 
+        0 1px 1px #000, 
+        -1px 0 1px #000, 
+         0 -1px 1px #000;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .mainContainer {
+      width: 100%;
+    }
+  }

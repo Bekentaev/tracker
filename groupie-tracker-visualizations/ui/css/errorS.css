@@ -1,0 +1,21 @@
+
+body{
+    text-align: center;
+    background-color: rgb(147, 243, 243);
+}
+
+.title{
+    border-radius: 80px;
+    font-family: sans-serif;
+    font-weight: 70;
+    background-color: #ffffff;
+}
+a{
+    border:solid black;
+    background-color:bisque;
+    border-radius: 80px;
+    text-decoration: none;
+}
+.ups{
+    border-radius: 70px;
+}

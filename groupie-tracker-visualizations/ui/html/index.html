@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="/ui/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="/"><h1 class="title">Gropie-tracker</h1></a>
+        </header>
+    {{range .}}
+    <div class="mainContainer">
+        <div class="infoContainer">
+            <a href="/artists/?id={{.ID}}"><img src="{{.Image}}" class="imgE"></a>
+            <p class="artistsName">{{.Name}}</p>
+        </div>
+    </div>
+    {{end}}
+</body>
+</html>

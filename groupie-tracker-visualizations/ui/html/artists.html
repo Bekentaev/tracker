@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ui/css/style.css">
+    <title>groupie-trackers</title>
+</head>
+<body>
+    <header>
+        <a href="/"><h1 class="title">Gropie-tracker</h1></a>
+        </header>
+        <img class = "imgA" src="{{.ArtistsStr.Image}}" alt="">
+      
+        <h2 class="text">{{.ArtistsStr.Name}}</h2>
+       
+        <div id="textContainer">
+            <div class="text">
+         <p class="inf"><b>Creation date:</b>{{.ArtistsStr.CreationDate}}</p>
+        <p class="inf"><b>First album was realesed:</b>{{.ArtistsStr.FirstAlbum}}</p>
+            <p><b>Members:</b></p>
+                {{range .Members}}
+                     <p class="text">{{.}}</p>
+                        {{end}}
+                     <p><b>Dates Locations:</b></p>
+                         {{ range $i, $e := .RelationStruct.DatesLocations}} 
+                            <br> {{$i}}
+                                <br>                            
+                                     <br>{{range $e}} <br> - {{.}} - {{end}}  
+                                        <br>                                                                 
+                                {{end}}
+                            </div>
+                </div>
+        </body>
+</html>
